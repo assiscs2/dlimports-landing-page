@@ -23,7 +23,7 @@ return(
                     className="max-h-[3rem] max-w-[3rem] translate-x-2"
                 />
 
-                <div className="flex flex-col text-center w-full -translate-x-[1rem]">
+                <div className="flex flex-col text-center w-full -translate-x-[0.6rem]">
                 <p className="font-extrabold text-lg text-gray-200">Não quero perder essas oportunidades!</p>
                 </div>
             </button>
