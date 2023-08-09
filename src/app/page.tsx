@@ -4,8 +4,8 @@ import logoInstagram from '../assets/instagram-logo.svg'
 // import logoFacebook from '../assets/facebook-logo.svg'
 import { ContactButton } from "@/components/ContactButton";
 import imageFerrariBlack from "../assets/ferrariblack-nobg.webp"
-import imageBritneySpears from "../assets/BritneySpears.jpg"
-import imageFerrariCar from "../assets/ferrari-car-image.jpg"
+import imageBritneySpears from "../assets/fantasy-bs-nobg2.png"
+
 
 export default function Home() {
   return (
@@ -38,9 +38,9 @@ export default function Home() {
                 <div className=" w-full h-auto flex flex-col px-4 py-2 gap-4 ">
                   <div className="w-auto bg-[url('../assets/ferrari-car-image.jpg')] bg-cover bg-center mt-2 -mb-6">
                     <div className=" w-[100vw] h-[340px] md:h-[488px] lg:h-[500px] flex items-center justify-center my-4">
-                      <Image src={imageFerrariBlack} height={400} width={400} alt="Imagem de um Perfume Ferrari Black Eau de Toilette" className="h-64 w-64 md:h-fit md:w-fit lg:h-fit lg:w-fit max-h-[500px]"/>
+                      <Image priority src={imageFerrariBlack} height={480} width={480} alt="Imagem de um Perfume Ferrari Black Eau de Toilette" className="h-64 w-64 md:h-fit md:w-fit lg:h-fit lg:w-fit max-h-[472px]"/>
                     </div>
-                    <div className="text-center flex flex-col gap-1 mt-6 p-6 bg-gray-50 translate-y-1">
+                    <div className="text-center flex flex-col gap-1 -mt-4 p-6 bg-gray-50 translate-y-1">
                       <p>
                         Ferrari Black Eau de Toilette - Perfume Masculino 125ml
                       </p>
@@ -50,11 +50,11 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
-                  <div className="w-auto">
-                  <div className="bg-white w-[100vw] h-[340px] md:h-[488px] lg:h-[500px] flex items-center justify-center mt-2 overflow-hidden">
-                      <Image src={imageBritneySpears} height={400} width={400} alt="Imagem de um Perfume Spears Eau de Parfum" className="h-[360px] w-[360px] overflow-hidden md:h-fit md:w-fit lg:h-fit lg:w-fit max-h-[640px]"/>
+                  <div className="w-auto bg-[url('../assets/fantasy-bs-bg1.jpg')] bg-cover bg-center">
+                  <div className="w-[100vw] h-[340px] md:h-[488px] lg:h-[500px] flex items-center justify-center mt-3 overflow-hidden">
+                      <Image priority src={imageBritneySpears} height={480} width={480} alt="Imagem de um Perfume Spears Eau de Parfum" className="h-[348px] w-[348px] overflow-hidden md:h-fit md:w-fit lg:h-fit lg:w-fit max-h-[640px]"/>
                     </div>
-                    <div className="text-center flex flex-col gap-1 mt-6 px-6">
+                    <div className="bg-gray-50 p-6 text-center flex flex-col gap-1 translate-y-1">
                       <p>
                         Fantasy Britney Spears Eau de Parfum - Perfume Feminino 100ml
                       </p>
