@@ -9,7 +9,7 @@ import imageBritneySpears from "../assets/BritneySpears.jpg"
 
 export default function Home() {
   return (
-    <main className="flex items-center text-gray-950 flex-col justify-center text-sm min-w-full lg:text-base overflow-hidden antialiased">
+    <main className="flex items-center text-gray-900 flex-col justify-center text-sm min-w-full lg:text-base overflow-hidden antialiased">
       {/* <head>
       <meta name="facebook-domain-verification" content="1mg6s10ngu5mmjbhrnuvq9j3u4fijh" />
     </head> */}
@@ -23,11 +23,11 @@ export default function Home() {
           </a>
         </header>
         <div
-          className="bg-gray-200"
+          className="bg-gray-50"
         >
 
           <div className="flex flex-col items-center justify-center w-full mx-auto max-w-[820px]">
-            <div className="text-center pt-4 px-4 w-full">
+            <div className="text-center pt-6 px-6 w-full">
               <h1 className="text-[#7f11BB] font-extrabold text-xl underline underline-offset-2 block">Aproveitem!!</h1>
               <p className="text-[#7f11BB] font-extrabold text-base underline-offset-2 inline">As melhores marcas, com os menores preços!</p>
               <p className="mt-2">Na compra de um perfume Ferrari Black ou Fantasy Britney Spears, receba em sua casa com <p className="text-[#7f11BB] font-extrabold underline underline-offset-2 inline"> frete grátis</p> para São Paulo!</p>
@@ -37,10 +37,10 @@ export default function Home() {
               <div className="flex gap-2">
                 <div className=" w-full h-auto flex flex-col px-4 py-2 gap-4 ">
                   <div className="w-auto">
-                    <div className="bg-white w-[100vw] h-[340px] md:h-[488px] lg:h-[500px] flex items-center justify-center mt-2 p-1 overflow-hidden">
-                      <Image src={imageFerrariBlack} height={400} width={400} alt="Imagem de um Perfume Ferrari Black Eau de Toilette" className="h-80 w-80 md:h-fit md:w-fit lg:h-fit lg:w-fit max-h-[500px]"/>
+                    <div className="bg-white w-[100vw] h-[340px] md:h-[488px] lg:h-[500px] flex items-center justify-center my-4 overflow-hidden">
+                      <Image src={imageFerrariBlack} height={400} width={400} alt="Imagem de um Perfume Ferrari Black Eau de Toilette" className="h-72 w-72 md:h-fit md:w-fit lg:h-fit lg:w-fit max-h-[500px]"/>
                     </div>
-                    <div className="text-center flex flex-col gap-1 mt-3 px-4">
+                    <div className="text-center flex flex-col gap-1 mt-6 px-6">
                       <p>
                         Ferrari Black Eau de Toilette - Perfume Masculino 125ml
                       </p>
@@ -51,10 +51,10 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="w-auto">
-                  <div className="bg-white w-[100vw] h-[340px] md:h-[488px] lg:h-[500px] flex items-center justify-center mt-2 p-1 overflow-hidden">
-                      <Image src={imageBritneySpears} height={400} width={400} alt="Imagem de um Perfume Spears Eau de Parfum" className="h-[400px] h-[400px] overflow-hidden md:h-fit md:w-fit lg:h-fit lg:w-fit max-h-[640px]"/>
+                  <div className="bg-white w-[100vw] h-[340px] md:h-[488px] lg:h-[500px] flex items-center justify-center mt-2 overflow-hidden">
+                      <Image src={imageBritneySpears} height={400} width={400} alt="Imagem de um Perfume Spears Eau de Parfum" className="h-[360px] w-[360px] overflow-hidden md:h-fit md:w-fit lg:h-fit lg:w-fit max-h-[640px]"/>
                     </div>
-                    <div className="text-center flex flex-col gap-1 mt-3 px-4">
+                    <div className="text-center flex flex-col gap-1 mt-6 px-6">
                       <p>
                         Fantasy Britney Spears Eau de Parfum - Perfume Feminino 100ml
                       </p>
