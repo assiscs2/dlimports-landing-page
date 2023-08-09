@@ -27,7 +27,7 @@ export default function Home() {
         >
 
           <div className="flex flex-col items-center justify-center w-full mx-auto max-w-[820px]">
-            <div className="text-center pt-6 px-6 w-full">
+            <div className="text-center pt-2 px-6 w-full">
               <h1 className="text-[#7f11BB] font-extrabold text-xl underline underline-offset-2 block">Aproveitem!!</h1>
               <p className="text-[#7f11BB] font-extrabold text-base underline-offset-2 inline">As melhores marcas, com os menores preços!</p>
               <p className="mt-2">Na compra de um perfume Ferrari Black ou Fantasy Britney Spears, receba em sua casa com <p className="text-[#7f11BB] font-extrabold underline underline-offset-2 inline"> frete grátis</p> para São Paulo!</p>
@@ -36,7 +36,7 @@ export default function Home() {
             <div className="flex flex-col w-full h-auto justify-center items-center ">
               <div className="flex gap-2">
                 <div className=" w-full h-auto flex flex-col px-4 py-2 gap-4 ">
-                  <div className="w-auto bg-[url('../assets/ferrari-car-image.jpg')] bg-center bg-cover mt-2 -mb-6">
+                  <div className="w-auto bg-[url('../assets/ferrari-car-image.jpg')] bg-cover bg-center mt-2 -mb-6">
                     <div className=" w-[100vw] h-[340px] md:h-[488px] lg:h-[500px] flex items-center justify-center my-4">
                       <Image src={imageFerrariBlack} height={400} width={400} alt="Imagem de um Perfume Ferrari Black Eau de Toilette" className="h-64 w-64 md:h-fit md:w-fit lg:h-fit lg:w-fit max-h-[500px]"/>
                     </div>
