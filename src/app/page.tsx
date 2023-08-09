@@ -3,9 +3,9 @@ import logoDLimports from "../assets/logo-dlimports.webp"
 import logoInstagram from '../assets/instagram-logo.svg'
 // import logoFacebook from '../assets/facebook-logo.svg'
 import { ContactButton } from "@/components/ContactButton";
-import imageFerrariBlack from "../assets/FerrariBlack.webp"
+import imageFerrariBlack from "../assets/ferrariblack-nobg.webp"
 import imageBritneySpears from "../assets/BritneySpears.jpg"
-
+import imageFerrariCar from "../assets/ferrari-car-image.jpg"
 
 export default function Home() {
   return (
@@ -36,16 +36,16 @@ export default function Home() {
             <div className="flex flex-col w-full h-auto justify-center items-center ">
               <div className="flex gap-2">
                 <div className=" w-full h-auto flex flex-col px-4 py-2 gap-4 ">
-                  <div className="w-auto">
-                    <div className="bg-white w-[100vw] h-[340px] md:h-[488px] lg:h-[500px] flex items-center justify-center my-4 overflow-hidden">
-                      <Image src={imageFerrariBlack} height={400} width={400} alt="Imagem de um Perfume Ferrari Black Eau de Toilette" className="h-72 w-72 md:h-fit md:w-fit lg:h-fit lg:w-fit max-h-[500px]"/>
+                  <div className="w-auto bg-[url('../assets/ferrari-car-image.jpg')] bg-center bg-cover mt-2 -mb-6">
+                    <div className=" w-[100vw] h-[340px] md:h-[488px] lg:h-[500px] flex items-center justify-center my-4">
+                      <Image src={imageFerrariBlack} height={400} width={400} alt="Imagem de um Perfume Ferrari Black Eau de Toilette" className="h-64 w-64 md:h-fit md:w-fit lg:h-fit lg:w-fit max-h-[500px]"/>
                     </div>
-                    <div className="text-center flex flex-col gap-1 mt-6 px-6">
+                    <div className="text-center flex flex-col gap-1 mt-6 p-6 bg-gray-50 translate-y-1">
                       <p>
                         Ferrari Black Eau de Toilette - Perfume Masculino 125ml
                       </p>
                       <p>Perfume masculino amadeirado e cítrico. Da linha Scuderia Ferrari, sua fragrância é esportiva e sofisticada.</p>
-                      <p className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2">
+                      <p className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 mb-2">
                         Por apenas R$159,99!!
                       </p>
                     </div>
