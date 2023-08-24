@@ -5,7 +5,8 @@ import logoInstagram from '../assets/instagram-logo.svg'
 import { ContactButton } from "@/components/ContactButton";
 import imageFerrariBlack from "../assets/ferrariblack-nobg.webp"
 import imageBritneySpears from "../assets/fantasy-bs-nobg2.png"
-import { Carrousel } from "@/components/Carrousel";
+import { Carousel } from "@/components/Carousel";
+import { Marquee } from "@/components/Marquee";
 
 
 
@@ -34,7 +35,7 @@ export default function Home() {
               <h1 className="text-[#7f11BB] font-extrabold text-xl underline underline-offset-2 block mt-1">Aproveitem!!</h1>
               <p className="text-[#7f11BB] font-extrabold text-base underline-offset-2 inline">As melhores marcas, com os menores preços!</p>
               <p className="mt-2">Na compra de um perfume Ferrari Black ou Fantasy Britney Spears, receba em sua casa com <p className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline"> frete grátis</p> para São Paulo!</p>
-              <p>Mas não deixe para depois!! A promoção válida apenas para às  <p className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline">100 primeiras unidades!</p></p>
+              <p className="mt-1">Mas não deixe para depois!! A promoção válida apenas para às  <p className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline">100 primeiras unidades!</p></p>
             </div>
             <div className="flex flex-col w-full h-auto justify-center items-center mt-2">
               <div className="flex gap-2">
@@ -94,16 +95,17 @@ export default function Home() {
                 </div>
                 <div className="text-center pt-4 px-4 w-full mx-auto max-w-[820px]">
                 <div>
-                    <p className="mt-3">
+                    <p className="px-6 mt-4">
                       A <a href="https://www.dlimport.com.br/"><p className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline">DL IMPORTS</p></a> foi fundada em 2015, buscando trazer o melhor custo e benefício, com preços justos em produtos das melhores e mais queridas marcas do mercado!
                       <p>Oferecendo ampla variedade, qualidade e excelência, confira nossas opções e com os melhores preços!!</p>
                     </p>
                   </div>
                   <div>
-                    <p className="mt-4"> Trabalhamos apenas com <p className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline">produtos originais</p> de diversas marcas renomadas, como <p className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline">Dior e Paco Rabane</p> , entre outras! Com garantia de satisfação em qualidade e atendimento!</p>
+                    <p className="mt-4 px-6"> Trabalhamos apenas com <p className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline">produtos originais</p> de diversas marcas renomadas, como <p className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline">Dior e Paco Rabane</p> , entre outras! Com garantia de satisfação em qualidade e atendimento!</p>
                   </div>
-                  <div className="mt-6 flex items-center justify-center">
-                    <Carrousel />
+                  <div className="flex items-center justify-center h-auto py-6">
+                    {/* <Carousel /> */}
+                      <Marquee/>
                   </div>
                 </div>
               </div>
