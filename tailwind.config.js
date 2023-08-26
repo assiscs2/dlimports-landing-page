@@ -13,17 +13,15 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       animation: {
-        marquee: 'marquee 32s linear infinite',
-        marquee2: 'marquee2 42s linear infinite',
+        carousel: 'carousel 32s linear infinite',
+        carouselMobile: 'carousel 46s linear infinite',
+
       },
       keyframes: {
-        marquee: {
-          '0%': { transform: 'translateX(-60%)' },
-          '100%': { transform: 'translateX(-410%)' },
-        },
-        marquee2: {
-          '0%': { transform: 'translateX(-1%)' },
-          '100%': { transform: 'translateX(-1007%)' },
+        carousel: {
+          '0%': { transform: 'translateX(-560px)' },
+          '100%': { transform: 'translateX(-4040px)' },
+
         },
       },
     },
