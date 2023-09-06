@@ -6,7 +6,7 @@ import imageFerrariBlack from "./../../assets/ferrariblack-nobg.webp";
 import imageBritneySpears from "./../../assets/fantasy-bs-nobg2.png";
 import { Marquee } from "@/components/Marquee";
 
-export default function Index() {
+export default function Page() {
      return (
         <main className="flex items-center text-gray-700 text-sm leading-tight font-semibold flex-col justify-center min-w-full lg:text-base overflow-hidden antialiased">
           {/* <head>
