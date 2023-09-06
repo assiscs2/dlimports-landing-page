@@ -1,14 +1,10 @@
 import Image from "next/image";
 import logoDLimports from "../assets/logo-dlimports.webp"
 import logoInstagram from '../assets/instagram-logo.svg'
-// import logoFacebook from '../assets/facebook-logo.svg'
 import { ContactButton } from "@/components/ContactButton";
 import imageFerrariBlack from "../assets/ferrariblack-nobg.webp"
 import imageBritneySpears from "../assets/fantasy-bs-nobg2.png"
-import { Carousel } from "@/components/Carousel";
 import { Marquee } from "@/components/Marquee";
-
-
 
 
 export default function Home() {
@@ -34,8 +30,9 @@ export default function Home() {
             <div className="text-center pt-2 px-6 w-full text-base font-semibold text-gray-700 leading-tight">
               <h1 className="text-[#7f11BB] font-extrabold text-xl underline underline-offset-2 block mt-1">Aproveitem!!</h1>
               <p className="text-[#7f11BB] font-extrabold text-base underline-offset-2 inline">As melhores marcas, com os menores preços!</p>
-              <p className="mt-2">Na compra de um perfume Ferrari Black ou Fantasy Britney Spears, receba em sua casa com <p className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline"> frete grátis</p> para São Paulo!</p>
-              <p className="mt-1">Mas não deixe para depois!! A promoção válida apenas para às  <p className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline">100 primeiras unidades!</p></p>
+              <p className="mt-1">Na compra de um perfume Ferrari Black ou Fantasy Britney Spears, receba em sua casa com </p> <strong className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline"> frete grátis</strong><p className="inline"> para São Paulo!</p>
+              <p></p>
+              <p className="mt-1 inline">Mas não deixe para depois!! A promoção válida apenas para às</p> <strong className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline">100 primeiras unidades!</strong>
             </div>
             <div className="flex flex-col w-full h-auto justify-center items-center mt-2">
               <div className="flex gap-2">
@@ -48,15 +45,13 @@ export default function Home() {
                       {/* <p className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline">
                         Ferrari Black Eau de Toilette - Perfume Masculino 125ml
                       </p> */}
-                      <p className="text-[#7f11BB] font-extrabold">
-                         -
-                         {" "}
-                      <p className="text-[#7f11BB] font-extrabold text-lg inline">
-                       Ferrari Black Eau de Toilette
-                      </p>
-                         {" "}
-                         -
-                      </p>
+                      <div>
+                      <span className="text-[#7f11BB] font-extrabold inline">- </span>
+                      <strong className="text-[#7f11BB] font-extrabold text-lg">
+                          Ferrari Black Eau de Toilette
+                      </strong>
+                      <span className="text-[#7f11BB] font-extrabold"> -</span>
+                      </div>
                       <p>Perfume masculino amadeirado e cítrico. Da linha Scuderia Ferrari, sua fragrância é esportiva e sofisticada.</p>
                       <p className="text-[#7f11BB] font-extrabold text-xl underline underline-offset-2 mb-2">
                         Por apenas R$159,99!!
@@ -71,15 +66,13 @@ export default function Home() {
                       {/* <p className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline">
                         Fantasy Britney Spears Eau de Parfum - Perfume Feminino 100ml
                       </p> */}
-                      <p className="text-[#7f11BB] font-extrabold">
-                         -
-                         {" "}
-                      <p className="text-[#7f11BB] font-extrabold text-lg inline">
-                        Fantasy Britney Spears Eau de Parfum
-                      </p>
-                         {" "}
-                         -
-                      </p>
+                      <div>
+                      <span className="text-[#7f11BB] font-extrabold inline">- </span>
+                        <strong className="text-[#7f11BB] font-extrabold text-lg inline">
+                          Fantasy Britney Spears Eau de Parfum
+                        </strong>
+                        <span className="text-[#7f11BB] font-extrabold"> -</span>
+                      </div>
                       <p>Perfume feminino sexy e descolado. Com frutas, perfeito para a mulher romântica, mas que adora provocar.</p>
                       <p className="text-[#7f11BB] font-extrabold text-xl underline underline-offset-2">
                         Por apenas R$189,99!!
@@ -94,18 +87,18 @@ export default function Home() {
                   < ContactButton />
                 </div>
                 <div className="text-center pt-4 px-4 w-full mx-auto max-w-[820px]">
-                <div>
-                    <p className="px-6 mt-4">
-                      A <a href="https://www.dlimport.com.br/"><p className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline">DL IMPORTS</p></a> foi fundada em 2015, buscando trazer o melhor custo e benefício, com preços justos em produtos das melhores e mais queridas marcas do mercado!
+                  <div>
+                    <div className="px-6 mt-4">
+                      <p className="inline">A </p><a href="https://www.dlimport.com.br/"><strong className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline">DL IMPORTS</strong></a> <p className="inline"> foi fundada em 2015, buscando trazer o melhor custo e benefício, com preços justos em produtos das melhores e mais queridas marcas do mercado!</p>
                       <p>Oferecendo ampla variedade, qualidade e excelência, confira nossas opções e com os melhores preços!!</p>
-                    </p>
+                    </div>
                   </div>
                   <div>
-                    <p className="mt-4 px-6"> Trabalhamos apenas com <p className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline">produtos originais</p> de diversas marcas renomadas, como <p className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline">Dior e Paco Rabane</p> , entre outras! Com garantia de satisfação em qualidade e atendimento!</p>
+                    <p className="mt-4 px-6"> Trabalhamos apenas com <strong className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline">produtos originais</strong> de diversas marcas renomadas, como <strong className="text-[#7f11BB] font-extrabold text-base underline underline-offset-2 inline">Dior e Paco Rabane</strong>, entre outras! Com garantia de satisfação em qualidade e atendimento!</p>
                   </div>
                   <div className="flex items-center justify-center h-auto py-6">
                     {/* <Carousel /> */}
-                      <Marquee/>
+                    <Marquee />
                   </div>
                 </div>
               </div>

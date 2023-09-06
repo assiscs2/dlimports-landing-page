@@ -9,10 +9,6 @@ import imageHBoss from "../assets/carousel-images/HBoss-img1.jpg"
 
 
 
-
-
-
-
 export function Marquee() {
 
     return (
