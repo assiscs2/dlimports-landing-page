@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'DL Imports - Lading Page',
   description: 'Desenvolvido por Gustavo Assis - https://github.com/assiscs2/',
+  icons: {
+    icon: './src/app/favicon.png'
+  }
 }
 
 export default function RootLayout({
@@ -16,6 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="facebook-domain-verification" content="vxn5wxk1rjf585zozcy1vtfzgmoos1" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
