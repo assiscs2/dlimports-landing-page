@@ -1,9 +1,9 @@
 import Image from "next/image";
-import logoDLimports from "./../../assets/logo-dlimports.webp";
-import logoInstagram from "./../../assets/instagram-logo.svg";
+import logoDLimports from "./../assets/logo-dlimports.webp";
+import logoInstagram from "./../assets/instagram-logo.svg";
 import { ContactButton } from "@/components/ContactButton";
-import imageFerrariBlack from "./../../assets/ferrariblack-nobg.webp";
-import imageBritneySpears from "./../../assets/fantasy-bs-nobg2.png";
+import imageFerrariBlack from "./../assets/ferrariblack-nobg.webp";
+import imageBritneySpears from "./../assets/fantasy-bs-nobg2.png";
 import { Marquee } from "@/components/Marquee";
 
 export default function Page() {
