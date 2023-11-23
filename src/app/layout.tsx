@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'DL Imports - Promoção',
-  description: 'Desenvolvido por Gustavo Assis - https://github.com/assiscs2/',
+  description: '',
   icons: {
     icon: './src/app/favicon.png'
   }
