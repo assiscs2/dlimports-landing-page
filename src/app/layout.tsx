@@ -6,7 +6,7 @@ import { FacebookPixel } from './components'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'DL Imports - Lading Page',
+  title: 'DL Imports - Promoção',
   description: 'Desenvolvido por Gustavo Assis - https://github.com/assiscs2/',
   icons: {
     icon: './src/app/favicon.png'
